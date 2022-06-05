@@ -1,3 +1,76 @@
 body {
-    background: blue;
+    background: rgb(192, 192, 212);
+    /* background-image: url("https://moringaschool.com/wp-content/uploads/2021/12/team_work.jpg");  */
   }
+  header{
+    text-align: center;
+  }
+  figure img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: fill;
+    width: 100%;
+    color: rgba(16,30,60,255);
+  }
+  #featured p,h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 800px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(250, 239, 239, 0.918);
+    transition: width 2s;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(14, 11, 11);
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    /* width: 25%; */
+  }
+  
+  li a:hover {
+    background-color: rgba(16,30,60,255);
+  }
+  ul #join{
+    text-align: center;
+    padding: 18px;
+  }
+
+  #details div{
+    float:left; 
+    width: 100%;
+    background: rgba(16,30,60,255);
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    /* margin-bottom: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #myDIV {
+    width: 25%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+  }
+  
+ 
